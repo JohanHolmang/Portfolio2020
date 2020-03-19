@@ -1,0 +1,96 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+#wrapper {
+    flex: 1;
+}
+
+.navbar {
+    background-color: red;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.h1 {
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.h2a {
+    padding-top: 150px;
+}
+
+.h2aContainer {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.h2b {
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.h2bContainer {
+    display: flex;
+    padding: 30px;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    justify-content: center;
+    color: black;
+}
+
+.ruta1 {
+    background-color: crimson;
+    width: 10vw;
+    height: 20vh;
+}
+
+.ruta2 {
+    background-color: cyan;
+    width: 10vw;
+    height: 20vh;
+}
+
+.myLolChamps {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: goldenrod;
+    background-color: royalblue;
+    padding: 30px;
+    padding-bottom: 50px;
+}
+
+.whatChamp {
+    color: gold;
+    padding-top: 40px;
+}
+
+.lol {
+    border-color: gold;
+}
+
+.lolChamps {
+    padding-bottom: 20px;
+    color: gold;
+}
+
+.footer {
+    display: flex;
+    background-color: red;
+}
+
+.space {
+    height: 30px;
+}
